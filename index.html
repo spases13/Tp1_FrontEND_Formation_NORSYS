@@ -1,12 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.scss">
-</head>
-<body>
-  <h1>Hello</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Norsys Afrique | TP1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="home_page">
+      <header>
+        <div class="logo">
+          <img src="images/logo_norsys.jpg" alt="" />
+        </div>
+      </header>
+      <section class="hero">
+        <div class="hero_info">
+          <h1 class="titre">Trouvez l'agence la plus proche</h1>
+          <div class="hero_search">
+            <div class="proximite">
+              <button class="btn">A Proximite</button>
+            </div>
+            <span class="ou">OU</span>
+            <div class="filters">
+              <div class="pays_de_recherche">
+                <span>Pays de recherche:</span>
+                <select class="select_style">
+                  <option value="Choisir un pays">Choisir un pays</option>
+                  <option value="Maroc">Maroc</option>
+                  <option value="France">France</option>
+                </select>
+              </div>
+              <div class="search_input">
+                <input
+                  type="text"
+                  placeholder="Ville , Code Postal"
+                  class="input_style"
+                />
+                <button class="btn">Rechercher</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="heading container">
+        <h2 class="titre">titre</h2>
+      </div>
+      <div class="cards_container container">
+        <div class="card">
+          <div class="img_wrapper">
+            <img src="images/banque-international-400x227px.png" alt="" />
+          </div>
+          <div class="titre">
+            <h5>titre1 <i class="icon bx bx-chevron-right"></i></h5>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+            commodi autem voluptas, rem fuga earum, molestias, hic dignissimos
+            quas voluptates officia non quidem vitae sint sit sapiente quibusdam
+            fugit est.
+          </p>
+        </div>
+        <div class="card">
+          <div class="img_wrapper">
+            <img src="images/patrimoine-400x227px.png" alt="" />
+          </div>
+          <div class="titre">
+            <h5>titre1 <i class="icon bx bx-chevron-right"></i></h5>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+            commodi autem voluptas, rem fuga earum, molestias, hic dignissimos
+            quas voluptates officia non quidem vitae sint sit sapiente quibusdam
+            fugit est.
+          </p>
+        </div>
+        <div class="card">
+          <div class="img_wrapper">
+            <img src="images/proche-client-400x227px.png" alt="" />
+          </div>
+          <div class="titre">
+            <h5>titre1 <i class="icon bx bx-chevron-right"></i></h5>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+            commodi autem voluptas, rem fuga earum, molestias, hic dignissimos
+            quas voluptates officia non quidem vitae sint sit sapiente quibusdam
+            fugit est.
+          </p>
+        </div>
+      </div>
+      <footer>
+        <div class="row">
+          <h4>Lorem Ipsum</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, autem
+            suscipit nesciunt, lorem ipsum
+            <i class='icon bx bx-chevron-right'></i>
+          </p>
+        </div>
+        <div class="row">
+          <h4>Lorem Ipsum</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, autem
+            suscipit nesciunt, lorem ipsum
+            <i class='icon bx bx-chevron-right'></i>
+          </p>
+        </div>
+        <div class="row">
+          <h4>Lorem Ipsum</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, autem
+            suscipit nesciunt, lorem ipsum
+            <i class='icon bx bx-chevron-right'></i>
+          </p>
+        </div>
+        <div class="row">
+          <h4>Lorem Ipsum</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, autem
+            suscipit nesciunt, lorem ipsum
+            <i class='icon bx bx-chevron-right'></i>
+          </p>
+        </div>
+      </footer>
+      <div class="copyright">
+        <ul>
+          <a href="#">
+            <li>Lorem ipsum dolor</li>
+          </a>
+          <a href="#">
+            <li>Securite</li>
+          </a>
+          <a href="#">
+            <li>Aide</li>
+          </a>
+          <a href="#">
+            <li>Mentions legales</li>
+          </a>
+          <a href="#">
+            <li>Tarifs et Conditions Générales</li>
+          </a>
+        </ul>
+      </div>
+    </main>
+  </body>
 </html>
