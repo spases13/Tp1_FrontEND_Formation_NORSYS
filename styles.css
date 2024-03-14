@@ -20,6 +20,7 @@ html, body {
   font-family: var(--sans-serif);
   min-height: 100vh;
   width: 100%;
+  color: var(--black);
 }
 
 .btn {
@@ -74,7 +75,6 @@ html, body {
 #home_page section.hero {
   display: flex;
   height: 450px;
-  background-color: cyan;
   background: url(images/maxresdefault.jpg) no-repeat;
   background-size: 100% 68%;
   display: flex;
@@ -103,7 +103,6 @@ html, body {
 }
 #home_page section.hero .hero_info .hero_search {
   display: flex;
-  background-color: red;
   gap: 1.7rem;
 }
 #home_page section.hero .hero_info .hero_search .ou {
@@ -114,14 +113,12 @@ html, body {
 }
 #home_page section.hero .hero_info .hero_search .proximite {
   margin-top: auto;
-  background-color: yellow;
 }
 #home_page section.hero .hero_info .hero_search .filters {
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex: 1;
-  background-color: lime;
   gap: 1rem;
 }
 #home_page section.hero .hero_info .hero_search .filters .pays_de_recherche {
@@ -129,7 +126,6 @@ html, body {
   align-items: center;
   flex: 1;
   align-self: flex-start;
-  background-color: pink;
   flex-wrap: wrap;
   gap: 0.7rem 1.5rem !important;
 }
@@ -148,6 +144,7 @@ html, body {
   font-weight: 300;
 }
 #home_page .heading::before {
+  background-color: var(--red);
   position: absolute;
   left: 10px;
   top: 50%;
@@ -155,7 +152,6 @@ html, body {
   content: "";
   height: 80%;
   width: 5px;
-  background-color: var(--red);
 }
 #home_page .cards_container {
   display: flex;
@@ -165,13 +161,12 @@ html, body {
 }
 #home_page .cards_container .card {
   flex: 1;
-  max-width: 400px;
+  max-width: 500px;
   padding: 1rem;
   outline: 1px solid var(--gray-100);
 }
 #home_page .cards_container .card .img_wrapper {
   width: 100%;
-  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,9 +244,6 @@ html, body {
 }
 
 @media (max-width: 1024px) {
-  body #home_page {
-    background-color: burlywood;
-  }
   body #home_page section.hero {
     background-size: 100% 100%;
     align-items: flex-end;
@@ -289,7 +281,6 @@ html, body {
   }
   body #home_page section.hero .hero_info .hero_search .proximite {
     margin-top: auto;
-    background-color: yellow;
   }
   body #home_page section.hero .hero_info .hero_search .filters {
     display: flex;
@@ -298,7 +289,6 @@ html, body {
     align-items: center;
     flex: 1;
     width: 80%;
-    background-color: lime;
     gap: 10px;
   }
   body #home_page section.hero .hero_info .hero_search .filters .pays_de_recherche {
@@ -307,26 +297,13 @@ html, body {
     justify-content: center;
     flex: 1;
     align-self: center;
-    background-color: pink;
     width: 100%;
     gap: 1.5rem;
   }
   body #home_page section.hero .hero_info .hero_search .filters .search_input {
     display: flex;
-  }
-  body #home_page .heading .titre {
-    text-indent: 12px;
-    font-weight: 300;
-  }
-  body #home_page .heading::before {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translate(100%, -50%);
-    content: "";
-    height: 80%;
-    width: 5px;
-    background-color: var(--red);
+    gap: 10px 0;
+    justify-content: center;
   }
   body #home_page .cards_container {
     display: flex;
@@ -399,6 +376,5 @@ html, body {
   body #home_page .cards_container {
     width: 100%;
     overflow: hidden;
-    background-color: #333;
   }
 }/*# sourceMappingURL=styles.css.map */
